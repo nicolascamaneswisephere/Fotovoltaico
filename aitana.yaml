@@ -1,9 +1,18 @@
 id_project: 67c872a7-aed7-487b-b9e8-0add8f2d2343
 name: Modelización Fotovoltaico
-description: Notebook con una carga, exploración y modelización sencilla de los datos del dataset Fotovoltaico de OBREMO
+description: >-
+  Notebook con una carga, exploración y modelización sencilla de los datos del
+  dataset Fotovoltaico de OBREMO
 datasets: {}
 experiments:
   modelización_fotovoltaico_ipynb:
     deps: []
     params: {}
     script: modelización_fotovoltaico.ipynb
+  '':
+    deps: []
+    params:
+      prueba:
+        - prueba 1
+    script: ''
+    instance: -1
